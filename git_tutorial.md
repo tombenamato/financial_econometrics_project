@@ -14,6 +14,8 @@ git pull
 # uploading your work online
 git pull
 
+If you created a new file do git add -A or git add name_of_new_file
+
 git commit -am" the message"
 
 /// It will commit, save your work in the git forverer, i.e. we can go back to this if we want
