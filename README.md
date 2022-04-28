@@ -1,5 +1,6 @@
 # financial_econometrics_project
 
+
 - processing
     - stopwords
     - lower
@@ -15,5 +16,5 @@
 - sentimental analysis
     - VADER/BERT Analysis
     - statistics after analysis
-
+ 
 
