@@ -1,0 +1,3 @@
+
+
+print("C'est carré")
