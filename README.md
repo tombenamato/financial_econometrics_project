@@ -2,19 +2,21 @@
 
 
 - processing
-    - stopwords
-    - lower
-    - ponctuation
-    - embedding/lemmatizer/stemmatization
-    - N-grams
-    
+√ä√ä√ä√ä- stopwords
+√ä√ä√ä√ä- lower
+√ä√ä√ä√ä- ponctuation
+√ä√ä√ä√ä- embedding/lemmatizer/stemmatization
+√ä√ä√ä√ä- N-grams
+- Remove the very frequent words.
+- Remove the infrequent words.
+√ä√ä√ä√ä
 - statistics
-    - frequency of the words 
-    - TFIDF
-    - frequency of the articles per month/year
-    - topics
+√ä√ä√ä√ä- frequency of the words√ä
+√ä√ä√ä√ä- TFIDF
+√ä√ä√ä√ä- frequency of the articles per month/year
+√ä√ä√ä√ä- topics
 - sentimental analysis
-    - VADER/BERT Analysis
-    - statistics after analysis
+√ä√ä√ä√ä- VADER/BERT Analysis
+√ä√ä√ä√ä- statistics after analysis
  
 
