@@ -1,5 +1,9 @@
 # financial econometrics project
 
+## data scraping
+- [x] scrap urls of earning call transcript
+- [x] scrap htmls of earning call transcript
+- [ ] scrap comments of earning call transcript
 
 ## pre-processing
 - [x] stopwords
