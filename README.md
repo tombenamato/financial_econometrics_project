@@ -1,4 +1,4 @@
-# financial_econometrics_project
+# financial econometrics project
 
 
 ## pre-processing
