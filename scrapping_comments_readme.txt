@@ -6,7 +6,7 @@ to obtain comments id of all the page:
 https://seekingalpha.com/api/v3/articles/4504702/comment_maps?include=user&sort=-top_parent_id
 
 To recap:
-https://seekingalpha.com/api/v3/articles/$id of the earning call$/comment_maps?
+https://seekingalpha.com/api/v3/articles/$id of the earning call$/comment_maps?include=user&sort=-top_parent_id
 We get list of most recent comments id. We can now ask for the comments data.
 https://seekingalpha.com/api/v3/articles/4504702/comments?comment_ids=$comment_id_1$,$comment_id_2$,$comment_id_3$
 We get list of most recent comments.
