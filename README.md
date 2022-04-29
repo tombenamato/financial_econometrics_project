@@ -1,14 +1,14 @@
 # financial_econometrics_project
 
 
-## processing
+## pre-processing
 - [x] stopwords
 - [x] lower
 - [x] ponctuation
 - [ ] embedding
 - [x] lemmatizer
-- [x] stemmatization
-- [ ] N-grams
+- [ ] stemming
+- [x] N-grams
 - [ ] Remove the very frequent words.
 - [ ] Remove the infrequent words.
 
