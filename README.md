@@ -5,6 +5,8 @@
 - [x] scrap htmls of earning call transcript
 - [x] scrap comments of earning call transcript
 
+For the code to run you need to create in the directory data, the two following directory : article, comment
+
 ## pre-processing
 - [x] stopwords
 - [x] lower
