@@ -15,8 +15,8 @@ For the code to run you need to create in the directory data, the two following 
 - [x] lemmatizer
 - [ ] stemming
 - [x] N-grams
-- [ ] Remove the very frequent words.
-- [ ] Remove the infrequent words.
+- [x] Remove the very frequent words.
+- [x] Remove the infrequent words.
 
 ## statistics
 - [ ] frequency of the words
