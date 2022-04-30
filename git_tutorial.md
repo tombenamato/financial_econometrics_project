@@ -6,7 +6,7 @@ All the command below have to be done (written in) from your command line, termi
 
 
 # Initialise the git on your computer
-git clone https://github.com/tombenamato/CourseInvestments.git
+git clone https://github.com/tombenamato/financial_econometrics_project.git
 
 # Starting to work
 git pull
@@ -27,7 +27,7 @@ git push
 /// upload your local git online, so everyone have your last git (with all it's history)
 
 # in case of conflict
-First call Thomas Bienaimé, as it might be easy.
+First call someone who is comfortable, as it might be easy.
 
 If you know you didn't do any work and just want to start from what is online do the following
 
