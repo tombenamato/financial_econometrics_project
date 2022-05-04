@@ -11,9 +11,9 @@ For the code to run you need to create in the directory data, the two following 
 - [x] stopwords
 - [x] lower
 - [x] ponctuation
-- [ ] embedding
+- [ ] embedding (Deep Learning, keras ??? à faire ? surtout dans le preprocessing???)
 - [x] lemmatizer
-- [ ] stemming
+- [x] stemming
 - [x] N-grams
 - [x] Remove the very frequent words.
 - [x] Remove the infrequent words.
