@@ -28,5 +28,5 @@ For the code to run you need to create in the directory data, the two following 
 - [ ] statistics after analysis
 
 
-## Len du drive pour les recherches
+## Lien du drive pour les recherches
 https://drive.google.com/drive/folders/1-4Bj5yplrty2HqNq34AyTmdYMQahd7NB?usp=sharing
