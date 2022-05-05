@@ -11,7 +11,6 @@ For the code to run you need to create in the directory data, the two following 
 - [x] stopwords
 - [x] lower
 - [x] ponctuation
-- [ ] embedding (Deep Learning, keras ??? à faire ? surtout dans le preprocessing???)
 - [x] lemmatizer
 - [x] stemming
 - [x] N-grams
@@ -26,3 +25,6 @@ For the code to run you need to create in the directory data, the two following 
 - [ ] sentimental analysis
 - [ ] VADER/BERT Analysis
 - [ ] statistics after analysis
+
+## implementation
+- [ ] embedding (Deep Learning, keras ??? à faire à quel moment?)
