@@ -20,9 +20,9 @@ For the code to run you need to create in the directory data, the two following 
 
 ## statistics
 - [ ] frequency of the words
-- [ ] TF-IDF
-- [ ] frequency of the articles per month/year
-- [ ] topics
+- [ ] TF-IDF (J,Ta)
+- [ ] frequency of the articles per month/year 
+- [ ] topics extraction, LDA (J,Ta)
 - [ ] sentimental analysis
 - [ ] VADER/BERT Analysis
 - [ ] statistics after analysis
