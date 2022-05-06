@@ -26,5 +26,11 @@ For the code to run you need to create in the directory data, the two following 
 - [ ] VADER/BERT Analysis
 - [ ] statistics after analysis
 
+<<<<<<< HEAD
 ## implementation
 - [ ] embedding (Deep Learning, keras ??? à faire à quel moment?)
+=======
+
+## Lien du drive pour les recherches
+https://drive.google.com/drive/folders/1-4Bj5yplrty2HqNq34AyTmdYMQahd7NB?usp=sharing
+>>>>>>> 16e23d6a41613968dfe6ecb8bab0455a39011e1d
