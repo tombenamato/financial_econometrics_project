@@ -27,7 +27,7 @@ For the code to run you need to create in the directory data, the two following 
 - [ ] statistics after analysis
 
 ## TODO
-- [ ] implement FiGAS (easy model) ( Anis, Thomas )
+- [x] implement FiGAS (easy model) ( Anis, Thomas )
 - [ ] see how to test it, with the blog of elie, seeking alpha (Ellie)
 - [ ] see how feasible bert is, and draw a guideline on how we will do it. (Dayan, Julien, Tatiana)
 
