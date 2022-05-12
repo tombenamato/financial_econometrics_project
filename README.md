@@ -28,8 +28,13 @@ For the code to run you need to create in the directory data, the two following 
 
 ## TODO
 - [x] implement FiGAS (easy model) ( Anis, Thomas )
-- [ ] see how to test it, with the blog of elie, seeking alpha (Ellie)
-- [ ] see how feasible bert is, and draw a guideline on how we will do it. (Dayan, Julien, Tatiana)
+- [x] see how to test it, with the blog of elie, seeking alpha (Ellie)
+- [x] see how feasible bert is, and draw a guideline on how we will do it. (Dayan, Julien, Tatiana)
+- [ ] pickle avec top 10 words pour chaque document (TF-IDF) (Tatiana)
+- [ ] recolter les donner nécessairs pour le modèle (buy/sell) (Thomas, Ellie)
+- [ ] FIGAS utiliser les top 10 words, donner un sentiment par rapport à ça (Dayan)
+- [ ] pickle avec top 10 words pour chaque document (FinBERT) (Julien)
+- [ ] Qu'est ce qu'on peut faire avec FinBERT + dictionnaire pour enlever les noms propres? (Julien)
 
 <<<<<<< HEAD
 ## implementation
