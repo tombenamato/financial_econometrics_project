@@ -6,7 +6,7 @@ path_to_id_csv = paste(current_data_directory, "/df_100stocks.csv", sep = "")
 path_to_top_word = paste(current_data_directory, "/top_10_words_tfidf_proc_figass_by_corpus.csv", sep = "")
 path_text = paste(current_data_directory, "/text", sep = "")
 running_csv_file_name = "data/sp500/FiGAS_sp500_by_corpus.csv"
-final_csv_file_name = "FiGAS_sp500_by_corpus_final.csv"
+final_csv_file_name = "data/sp500/FiGAS_sp500_by_corpus_final.csv"
 
 id_chosen = read.csv(file = path_to_id_csv)
 id_chosen=  id_chosen[-1]
