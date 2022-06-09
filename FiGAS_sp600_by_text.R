@@ -16,6 +16,8 @@ top_words = read.csv(file = path_to_top_word)
 top_words = top_words[!duplicated(top_words$article),]
 rownames(top_words) = top_words$article
 top_words = top_words[-1]
+top_words = top_words[-1]
+top_words = top_words[-1]
 
 df = data.frame(id = 0, sent_score = 0)
 for (folder in list.dirs(path_text)[-1]){
