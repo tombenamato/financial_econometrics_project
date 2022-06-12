@@ -19,7 +19,7 @@ top_words = top_words[-1]
 top_words = top_words[-1]
 top_words = top_words[-1]
 
-df = data.frame(id = 0, sent_score = 0)
+df = data.frame(id = 0, sent_score = 0, sent_score_rough = 0)
 for (folder in list.dirs(path_text)[-1]){
   for (file in list.files(paste(folder,"/", sep = ""), recursive = FALSE, include.dirs = FALSE)){
     # check if in set
@@ -37,7 +37,7 @@ for (folder in list.dirs(path_text)[-1]){
           sent = sent[sent!=0]
           # calculate mean only with important world that were really important, and that we obtain a value different from 0
           earning_sentiment_score = mean(sent)
-          df[nrow(df)+1 ,] = c(file,earning_sentiment_score)
+          df[nrow(df)+1 ,] = c(file,earning_sentiment_score,sentiment$sentiment$Average_sentiment)
           write.csv(df, running_csv_file_name)
         }
       )
