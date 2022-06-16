@@ -1,6 +1,3 @@
-# CourseInvestments
-Repository of the exercise done for the investments course from the master of financial engineering EPFL.
-
 ## Basic tutorial for git
 All the command below have to be done (written in) from your command line, terminal. And when typing it in your terminal, your terminal should be in you git folder.
 
