@@ -5,7 +5,7 @@ This Git regroups all of the resources to reproduce our results of our NLP earni
 https://drive.google.com/drive/folders/1-4Bj5yplrty2HqNq34AyTmdYMQahd7NB?usp=sharing
 
 ## How to use the git
-### Scrapping transcript html 
+### Scrapping transcripts HTML 
 Open the file scrapper_transcripts_html_specific_company.ipynb
 
 Change the parameters in the parameters cell and run the notebook
