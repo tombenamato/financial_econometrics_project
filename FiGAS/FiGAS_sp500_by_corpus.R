@@ -1,17 +1,21 @@
 library(FiGASR)
 library(stringr)
 
-current_data_directory = paste(getwd(),"/data/sp500",sep = "")
+# Parameter for data location
+current_data_directory = paste(getwd(),"/../data/sp500",sep = "")
 path_to_id_csv = paste(current_data_directory, "/df_100stocks.csv", sep = "")
 path_to_top_word = paste(current_data_directory, "/top_10_words_tfidf_proc_figass_by_corpus.csv", sep = "")
 path_text = paste(current_data_directory, "/text", sep = "")
-running_csv_file_name = "data/sp500/FiGAS_sp500_by_corpus.csv"
-final_csv_file_name = "data/sp500/FiGAS_sp500_by_corpus_final.csv"
+running_csv_file_name = paste(current_data_directory,"/FiGAS_sp500_by_corpus.csv", sep = "")
+final_csv_file_name = paste(current_data_directory, "/FiGAS_sp500_by_corpus_final.csv", sep = "")
+
+
 
 id_chosen = read.csv(file = path_to_id_csv)
 id_chosen=  id_chosen[-1]
 id_chosen = unlist(id_chosen)
 
+# get json of topic words (TOI) for all earnings call transcript analyzed
 top_words = read.csv(file = path_to_top_word)
 top_words = top_words[!duplicated(top_words$article),]
 rownames(top_words) = top_words$article
@@ -28,7 +32,7 @@ for (folder in list.dirs(path_text)[-1]){
       text = readLines(file_path)
       text = paste(text[str_count(text, '\\w+')>3], collapse = "")
       text = list(text)
-      # get ToI
+      # get ToIs
       include = as.list(str_split(substr(top_words[file,1], 3, nchar(top_words[file,1]) - 3), "', '")[[1]])
       try(
         expr = {
