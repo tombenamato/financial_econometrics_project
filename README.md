@@ -53,3 +53,13 @@ Change the parameters in the parameters cell and run the notebook
 The notebook saves the abnormal graphs in data/abnormal_graphs.
 #### Parameters
 sp : 'sp500' or 'sp600'
+### FiGAS sentiment analysis
+Open one of the file in the FiGAS folder.
+
+Change the parameters at the begining of the file.
+#### Parameters
+path_to_id_csv : The path to the csv file containing the id of the transcrits to analyse
+path_to_top_word : The path to the csv file containing the topic words for each of the transcripts to analyse
+path_text : The path to the folder containing the text of the Q&A transcripts part.
+running_csv_file_name : The path of the ongoing csv containing the sentiment score for the transcripts will be save
+final_csv_file_name : The path of the csv containing the sentiment score for the transcripts will be save
