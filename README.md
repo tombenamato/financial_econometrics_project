@@ -25,7 +25,8 @@ dir_path_text : The path to the folder where the parsed transcripts are written.
 ### Select earnings call to analyse, from all dowloaded earning calls
 Open the file select_earning_calls.
 
-Change the parameters in the parameters cell and run the notebook.
+Change the parameters in the parameters cell and run the notebook
+
 The notebook saves the earning calls to analyse in 'data/earning_call_dataframe in 2 files : one csv file with only earning call ids and one pickle file with all earning calls informations.
 
 #### Parameters
@@ -42,6 +43,7 @@ sp : 'sp500' or 'sp600'
 Open the file abnormal_returns.ipynb
 
 Change the parameters in the parameters cell and run the notebook
-The notebook saves the abnormal graphs in data/abnormal_graphs
+
+The notebook saves the abnormal graphs in data/abnormal_graphs.
 #### Parameters
 sp : 'sp500' or 'sp600'
