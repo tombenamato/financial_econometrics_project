@@ -26,7 +26,7 @@ dir_path_text : The path to the folder where the parsed transcripts are written.
 Open the file select_earning_calls.
 
 Change the parameters in the parameters cell and run the notebook.
-The notebook saves the ids to analyse in 'data/earning_call_dataframe) : one csv file with only earning call ids and one pickle file with all earning call informations.
+The notebook saves the earning calls to analyse in 'data/earning_call_dataframe in 2 files : one csv file with only earning call ids and one pickle file with all earning calls informations.
 
 #### Parameters
 sp : 'sp500' or 'sp600'
