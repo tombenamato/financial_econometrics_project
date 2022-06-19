@@ -32,6 +32,11 @@ The notebook saves the earning calls to analyse in 'data/earning_call_dataframe 
 #### Parameters
 sp : 'sp500' or 'sp600'
 
+#### Preprocessing
+pre-processing.ipynb  contains all the functions needed to download all the texts and also pre-process them.
+#### Topic Modeling 
+topic_modeling.ipynb aims to take as input the texts who have been processed and use it to find the most relevants topics and the words that are used for the sentimental analysis.
+
 ### NRC sentiment analysis
 Open the file NRC/NRC.ipynb
 
