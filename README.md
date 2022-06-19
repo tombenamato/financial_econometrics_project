@@ -21,3 +21,27 @@ Change the parameters in the parameters cell and run the notebook
 dir_path_ticker : The path to the folder where html folders of companies to parse is.
 
 dir_path_text : The path to the folder where the parsed transcripts are written.
+
+### Select earnings call to analyse, from all dowloaded earning calls
+Open the file select_earning_calls.
+
+Change the parameters in the parameters cell and run the notebook.
+The notebook saves the ids to analyse in 'data/earning_call_dataframe) : one csv file with only earning call ids and one pickle file with all earning call informations.
+
+#### Parameters
+sp : 'sp500' or 'sp600'
+
+### NRC sentiment analysis
+Open the file NRC/NRC.ipynb
+
+Change the parameters in the parameters cell and run the notebook
+#### Parameters
+sp : 'sp500' or 'sp600'
+
+### Calculate abnormal returns
+Open the file abnormal_returns.ipynb
+
+Change the parameters in the parameters cell and run the notebook
+The notebook saves the abnormal graphs in data/abnormal_graphs
+#### Parameters
+sp : 'sp500' or 'sp600'
